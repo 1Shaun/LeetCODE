@@ -3,6 +3,8 @@ package easy;
 public class Implementstr {
 
 
+	
+	
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		String haystack = "mississippi";
