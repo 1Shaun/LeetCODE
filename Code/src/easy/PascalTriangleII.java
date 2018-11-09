@@ -13,13 +13,14 @@ public class PascalTriangleII {
 		}
 		
 	}
-	public static List<Integer> generate(int rowIndex) {
+	public static List<Integer> generate(int numRows) {
 		List<List<Integer>> result= new ArrayList<>();
 		List<Integer> result1 = new ArrayList<>();
+		if(numRows == 0) return result1;
 		List<Integer> pre = new ArrayList<>();
 		pre.add(1);
 		result.add(pre);
-		for(int i= 2; i<=rowIndex+1;++i) {
+		for(int i= 2; i<=numRows+1;++i) {
 			List<Integer> cur = new ArrayList<>();
 			cur.add(1);
 			for(int j = 0; j < pre.size()-1; ++j) {
