@@ -38,6 +38,7 @@ public class AddBinary {
 			result = sum + result;
 		}
 		if(c ==1 ) {
+			
 			result = 1+result;
 		}
 		return result;
