@@ -20,6 +20,7 @@ public class RemoveElement {
 			if(nums[n] != val) {
 				nums[i++] = nums[n];
 				
+				
 			}
 		}
 		return i;				
