@@ -4,7 +4,7 @@ public class BuyandSell {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		int[] prices = {1,2};
+		int[] prices = {7,1,5,3,6,};
 		int k = maxProfit(prices);
 		System.out.println(k);
 	}
