@@ -23,6 +23,7 @@ public class BuyandSellTwo {
         while (i < prices.length - 1) {
             while (i < prices.length - 1 && prices[i] >= prices[i + 1])
                 i++;
+            	
             valley = prices[i];
             while (i < prices.length - 1 && prices[i] <= prices[i + 1])
                 i++;

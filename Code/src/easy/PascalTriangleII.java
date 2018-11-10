@@ -15,7 +15,6 @@ public class PascalTriangleII {
 	}
 	public static List<Integer> generate(int rowIndex) {
 		List<List<Integer>> result= new ArrayList<>();
-		List<Integer> result1 = new ArrayList<>();
 		List<Integer> pre = new ArrayList<>();
 		pre.add(1);
 		result.add(pre);
