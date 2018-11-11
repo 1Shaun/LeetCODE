@@ -30,6 +30,7 @@ public class PascalTriangleII {
 			pre = cur;
 		}
 		
+		
 		return result.get(rowIndex);
         
     }
