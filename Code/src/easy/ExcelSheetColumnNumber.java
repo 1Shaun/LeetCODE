@@ -14,7 +14,6 @@ public class ExcelSheetColumnNumber {
 		char[] cs = s.toCharArray();
 		for(int i = 0; i < length; i++) {	
 			sum +=(int) (Math.pow(26, k) * (cs[i] - 64));
-			System.out.println(sum);
 			k--;
 		}
 		return sum;
