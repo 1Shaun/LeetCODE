@@ -1,1 +1,0 @@
-select Max(Salary) as SecondHighestSalary from Employee where Employee.Salary < (select Max(Salary) from Employee);
