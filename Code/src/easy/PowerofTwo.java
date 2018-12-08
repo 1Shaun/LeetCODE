@@ -11,8 +11,7 @@ public class PowerofTwo {
     	if(n == 1) return true;
     	double f = n;
     	while(f >= 1) {
-    		f = f / 2;
-    		
+    		f = f / 2;	
     		if(f == 1) {
     			return true;
     		}
